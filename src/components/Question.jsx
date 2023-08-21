@@ -1,57 +1,68 @@
-import React from 'react';
+import React from "react";
+import theme from "./theme";
 
 const styles = {
   container: {
-    padding: '20px',
-    backgroundColor: '#f5f5f5',
-    borderRadius: '10px',
-    boxShadow: '0px 3px 10px rgba(0, 0, 0, 0.1)',
-    maxWidth: '600px',
-    margin: '40px auto'
+    padding: theme.padding.large,
+    backgroundColor: theme.colors.primaryBackground,
+    borderRadius: theme.borderRadius,
+    boxShadow: theme.boxShadow.primary,
+    maxWidth: theme.maxWidth,
+    margin: theme.margin.medium,
   },
-  question: {
-    fontSize: '20px',
-    marginBottom: '20px',
-    color: '#333'
+  instructions: {
+    fontSize: theme.fontSize.small,
+    marginBottom: "14px",
+    color: theme.colors.secondaryText,
+    fontStyle: theme.fontStyle.italic,
   },
   answers: {
-    display: 'flex',
-    flexDirection: 'column',
-    gap: '10px'
+    display: "flex",
+    flexDirection: "column",
+    gap: "10px",
   },
   answerButton: {
-    padding: '10px 15px',
-    backgroundColor: '#333',
-    color: '#fff',
-    border: 'none',
-    borderRadius: '5px',
-    cursor: 'pointer',
-    transition: 'background-color 0.3s'
+    width: "100%",
+    padding: theme.padding.small,
+    backgroundColor: theme.colors.secondaryBackground,
+    color: theme.colors.primaryText,
+    border: "none",
+    borderRadius: theme.borderRadius,
+    cursor: "pointer",
+    transition: theme.transition,
   },
   answerButtonHover: {
-    backgroundColor: '#555'
-  }
+    backgroundColor: theme.colors.hoverBackground,
+  },
 };
 
-const Question = ({ question, answers, onAnswerSelected }) => {
+const Question = ({ group, onQuestionSelected }) => {
   return (
     <div style={styles.container}>
-      <p style={styles.question}>{question}</p>
+      <div style={styles.instructions}>
+        Please select the statement that is true for your tree.
+      </div>
       <div style={styles.answers}>
-        {answers.map((answer, index) => (
+        {group.questions.map((question, index) => (
           <button
             key={index}
             style={styles.answerButton}
-            onMouseEnter={e => e.target.style.backgroundColor = styles.answerButtonHover.backgroundColor}
-            onMouseLeave={e => e.target.style.backgroundColor = styles.answerButton.backgroundColor}
-            onClick={() => onAnswerSelected(answer)}
+            onMouseEnter={(e) =>
+              (e.target.style.backgroundColor =
+                styles.answerButtonHover.backgroundColor)
+            }
+            onMouseLeave={(e) =>
+              (e.target.style.backgroundColor =
+                styles.answerButton.backgroundColor)
+            }
+            onClick={() => onQuestionSelected(question.next)}
           >
-            {answer}
+            {question.text}
           </button>
         ))}
       </div>
     </div>
   );
-}
+};
 
 export default Question;

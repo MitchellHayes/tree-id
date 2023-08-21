@@ -1,48 +1,49 @@
-import React from 'react';
+import React from "react";
+import theme from "./theme";
 
 const styles = {
   container: {
-    padding: '20px',
-    backgroundColor: '#f5f5f5',
-    borderRadius: '10px',
-    boxShadow: '0px 3px 10px rgba(0, 0, 0, 0.1)',
-    maxWidth: '600px',
-    margin: '40px auto',
-    textAlign: 'center'
+    padding: theme.padding.large,
+    backgroundColor: theme.colors.primaryBackground,
+    borderRadius: theme.borderRadius,
+    boxShadow: theme.boxShadow.primary,
+    maxWidth: theme.maxWidth,
+    margin: theme.margin.large,
+    textAlign: "center",
   },
   image: {
-    width: '100%',
-    maxWidth: '300px',
-    borderRadius: '10px',
-    margin: '20px 0'
+    width: "100%",
+    maxWidth: "300px",
+    borderRadius: theme.borderRadius,
+    margin: theme.margin.small,
   },
   treeName: {
-    fontSize: '24px',
-    fontWeight: 'bold',
-    color: '#333'
+    fontSize: theme.fontSize.large,
+    fontWeight: theme.fontWeight.bold,
+    color: theme.colors.secondaryBackground,
   },
   scientificName: {
-    fontSize: '18px',
-    fontStyle: 'italic',
-    color: '#666'
+    fontSize: theme.fontSize.medium,
+    fontStyle: theme.fontStyle.italic,
+    color: theme.colors.tertiaryText,
   },
   facts: {
-    marginTop: '20px',
-    color: '#555'
+    marginTop: "20px",
+    color: theme.colors.secondaryText,
   },
   button: {
-    marginTop: '20px',
-    padding: '10px 20px',
-    backgroundColor: '#333',
-    color: '#fff',
-    border: 'none',
-    borderRadius: '5px',
-    cursor: 'pointer',
-    transition: 'background-color 0.3s'
+    marginTop: "20px",
+    padding: theme.padding.medium,
+    backgroundColor: theme.colors.secondaryBackground,
+    color: theme.colors.primaryText,
+    border: "none",
+    borderRadius: theme.borderRadius,
+    cursor: "pointer",
+    transition: theme.transition,
   },
   buttonHover: {
-    backgroundColor: '#555'
-  }
+    backgroundColor: theme.colors.hoverBackground,
+  },
 };
 
 const Result = ({ treeData, onRestart }) => {
@@ -54,16 +55,20 @@ const Result = ({ treeData, onRestart }) => {
       <div style={styles.treeName}>{commonName}</div>
       <div style={styles.scientificName}>{scientificName}</div>
       <div style={styles.facts}>{facts}</div>
-      <button 
-        style={styles.button} 
-        onMouseEnter={e => e.target.style.backgroundColor = styles.buttonHover.backgroundColor}
-        onMouseLeave={e => e.target.style.backgroundColor = styles.button.backgroundColor}
+      <button
+        style={styles.button}
+        onMouseEnter={(e) =>
+          (e.target.style.backgroundColor = styles.buttonHover.backgroundColor)
+        }
+        onMouseLeave={(e) =>
+          (e.target.style.backgroundColor = styles.button.backgroundColor)
+        }
         onClick={onRestart}
       >
         Identify Another Tree
       </button>
     </div>
   );
-}
+};
 
 export default Result;

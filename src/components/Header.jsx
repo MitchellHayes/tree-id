@@ -1,29 +1,32 @@
-import React from 'react';
+import React from "react";
+import theme from "./theme";
 
 const styles = {
   header: {
-    display: 'flex',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    padding: '10px 20px',
-    backgroundColor: '#333',
-    color: '#fff',
-    boxShadow: '0px 3px 10px rgba(0, 0, 0, 0.2)'
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    padding: theme.padding.headerFooter,
+    backgroundColor: theme.colors.secondaryBackground,
+    color: theme.colors.primaryText,
+    boxShadow: theme.boxShadow.primary,
   },
   name: {
-    fontSize: '24px',
-    fontWeight: 'bold',
-    textDecoration: 'none',
-    color: '#fff',
+    fontSize: theme.fontSize.large,
+    fontWeight: theme.fontWeight.bold,
+    textDecoration: "none",
+    color: theme.colors.primaryText,
   },
 };
 
 const Header = () => {
   return (
     <header style={styles.header}>
-      <a href="/" style={styles.name}>Tree ID</a>
+      <a href="/" style={styles.name}>
+        Tree ID
+      </a>
     </header>
   );
-}
+};
 
 export default Header;
