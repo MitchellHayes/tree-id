@@ -28,7 +28,7 @@ const questionsBank = [
         next: "7C",
       },
       {
-        text: "The leaves are uniquely fan-shaped and mostly attached in cluseters to short spur-like branches",
+        text: "The leaves are uniquely fan-shaped and mostly attached in clusters to short spur-like branches",
         next: "ginkgo",
       },
     ],
@@ -41,7 +41,7 @@ const questionsBank = [
         next: "18A",
       },
       {
-        text: "The leaves alternate (staggered, not oppsite eachother on the twig.)",
+        text: "The leaves alternate (staggered, not opposite each other on the twig.)",
         next: "24B",
       },
     ],
@@ -54,7 +54,7 @@ const questionsBank = [
         next: "20D",
       },
       {
-        text: "The leaves alternate (staggered, not oppsite eachother on the twig.)",
+        text: "The leaves alternate (staggered, not opposite each other on the twig.)",
         next: "58B",
       },
     ],
@@ -122,7 +122,7 @@ const questionsBank = [
         next: "longleafPine",
       },
       {
-        text: "The needles are 6-9 inches long, whith cones 3-6 inches long.",
+        text: "The needles are 6-9 inches long, with cones 3-6 inches long.",
         next: "loblollyPine",
       },
     ],
@@ -157,7 +157,7 @@ const questionsBank = [
     id: "10C",
     questions: [
       {
-        text: "The needles are mostly 3/4-1.5 inches long, yellow-green and widely spred in bunches.",
+        text: "The needles are mostly 3/4-1.5 inches long, yellow-green and widely spread in bunches.",
         next: "jackPine",
       },
       {
@@ -230,7 +230,7 @@ const questionsBank = [
         next: "16A",
       },
       {
-        text: "The cones are upright on top of branches, they are over 1.5 inches long with deciduous svales, and the twigs are fairly smooth where needles have fallen off.",
+        text: "The cones are upright on top of branches, they are over 1.5 inches long with deciduous scales, and the twigs are fairly smooth where needles have fallen off.",
         next: "balsamFir_fraserFir",
       },
     ],
@@ -265,7 +265,7 @@ const questionsBank = [
     id: "14C",
     questions: [
       {
-        text: "The needles are 1/4-1/2 inche long, dull blue-green, the twigs have fine hairs, and the cones are about 1 inch long and will remain on the tree for several years.",
+        text: "The needles are 1/4-1/2 inches long, dull blue-green, the twigs have fine hairs, and the cones are about 1 inch long and will remain on the tree for several years.",
         next: "blackSpruce",
       },
       {
@@ -299,7 +299,7 @@ const questionsBank = [
         next: "easternArborvitae",
       },
       {
-        text: "The leaves are dark blue-green, the foliage is not arranged in flattened sprays: the fruit is asmall and brownish-purple, berry-like cone.",
+        text: "The leaves are dark blue-green, the foliage is not arranged in flattened sprays: the fruit is small and brownish-purple, berry-like cone.",
         next: "atlanticWhitecedar",
       },
       {
@@ -320,7 +320,7 @@ const questionsBank = [
         next: "northernCatalpa",
       },
       {
-        text: "The leaves are have smooth untoothed edges with blades less than 8 inches long, and veins that curve to follow the leaf edge.",
+        text: "The leaves are have smooth un-toothed edges with blades less than 8 inches long, and veins that curve to follow the leaf edge.",
         next: "floweringDogwood",
       },
     ],
@@ -333,7 +333,7 @@ const questionsBank = [
         next: "18C",
       },
       {
-        text: "The leaves have smooth edges, or few teeth (notches on the outer edge of the leaf) with rounded sinsuses.",
+        text: "The leaves have smooth edges, or few teeth (notches on the outer edge of the leaf) with rounded sinuses.",
         next: "20B",
       },
     ],
@@ -372,7 +372,7 @@ const questionsBank = [
         next: "20C",
       },
       {
-        text: "The perioles do show milkey sap when broken (may not show if very dry or in autumn). The buds are green or red, stout and blunt, the leaf underside is not downy or paler than the top.",
+        text: "The petioles do show milky sap when broken (may not show if very dry or in autumn). The buds are green or red, stout and blunt, the leaf underside is not downy or paler than the top.",
         next: "norwayMaple",
       },
     ],
@@ -394,7 +394,7 @@ const questionsBank = [
     id: "20D",
     questions: [
       {
-        text: "The leaves are palmately compound (blades that are aranged like findgers on a hand.)",
+        text: "The leaves are palmately compound (blades that are arranged like fingers on a hand.)",
         next: "20E",
       },
       {
@@ -407,7 +407,7 @@ const questionsBank = [
     id: "20E",
     questions: [
       {
-        text: "There leaf or leaflet usually has 7 blades characteristic of broadleaf tree, with buds that are normall gummy.",
+        text: "There leaf or leaflet usually has 7 blades characteristic of broadleaf tree, with buds that are normally gummy.",
         next: "horsechestnut",
       },
       {
@@ -493,7 +493,7 @@ const questionsBank = [
         next: "sassafras",
       },
       {
-        text: "The leaves are toothed, lobed, and unlobed on the same tree with a fleshy fruit.",
+        text: "The leaves are toothed, lobed, and un-lobed on the same tree with a fleshy fruit.",
         next: "28E",
       },
       {

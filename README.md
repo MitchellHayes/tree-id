@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+<br/>
+<p align="center">
+  <a href="https://github.com/MitchellHayes/tree-id">
+    <img src="https://raw.githubusercontent.com/MitchellHayes/tree-id/354bdb488dc0ded4e3092ad36c0dce28acd2eeff/public/assets/tree-id-icon.svg" alt="Logo" width="80" height="80">
+  </a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3 align="center">Tree ID</h3>
 
-## Available Scripts
+  <p align="center">
+    Leaf Through Nature, One Tree at a Time!
+    <br/>
+    <br/>
+    <a href="https://github.com/MitchellHayes/tree-id/issues">Report Bug</a>
+    .
+    <a href="https://github.com/MitchellHayes/tree-id/issues">Request Feature</a>
+  </p>
+</p>
 
-In the project directory, you can run:
+![Contributors](https://img.shields.io/github/contributors/MitchellHayes/tree-id?color=dark-green) ![Issues](https://img.shields.io/github/issues/MitchellHayes/tree-id) 
 
-### `npm start`
+## Table Of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* [About the Project](#about-the-project)
+* [Usage](#usage)
+* [Roadmap](#roadmap)
+* [Contributing](#contributing)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## About The Project
 
-### `npm test`
+Hey there, nature enthusiasts! 🌲
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+When my brother, a dedicated forestry student navigating the vast world of trees, found himself swamped with leafy specimens and tangled twigs, he came to me with a mission. "Can you create an app to simplify the world of tree identification?", he asked. And thus, Tree ID was born!
 
-### `npm run build`
+Tree ID isn't just another tree identification app; it's a labor of love, cultivated by sibling collaboration. Built on a robust tree identification key, it endeavors to make the complex canopy of tree species as approachable as a stroll in the park. From the whispering pines to the stoic oaks, our app serves as your digital dendrology buddy, ensuring you never mistake a maple for a mahogany again!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+So, whether you're a seasoned botanist or just starting to branch out in your tree-tracing journey, let Tree ID be the wind beneath your boughs. Dive into the forest of knowledge, one tap at a time!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Happy tree hunting! 🍃🔍
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Roadmap
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+See the [open issues](https://github.com/MitchellHayes/tree-id/issues) for a list of proposed features (and known issues).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contributing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/MitchellHayes/tree-id/issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
+* Please make sure you check your spelling and grammar.
+* Create individual PR for each suggestion.

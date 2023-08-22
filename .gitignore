@@ -11,6 +11,9 @@
 # production
 /build
 
+# vscode workspace extension files
+/.vscode
+
 # misc
 .DS_Store
 .env.local
