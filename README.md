@@ -21,7 +21,6 @@
 ## Table Of Contents
 
 * [About the Project](#about-the-project)
-* [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
 
@@ -36,10 +35,6 @@ Tree ID isn't just another tree identification app; it's a labor of love, cultiv
 So, whether you're a seasoned botanist or just starting to branch out in your tree-tracing journey, let Tree ID be the wind beneath your boughs. Dive into the forest of knowledge, one tap at a time!
 
 Happy tree hunting! 🍃🔍
-
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 ## Roadmap
 
